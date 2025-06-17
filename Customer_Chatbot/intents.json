@@ -1,0 +1,34 @@
+{"_comment": "it holds categories of user inputs (intents), example phrases (patterns), and bot replies (responses).",
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey there", "Good morning", "Good evening"],
+      "responses": ["Hello! How can I assist you with our e-commerce service?", "Hi there! Need help with something?"]
+    },
+    {
+      "tag": "store_hours",
+      "patterns": ["What are your hours?", "When is the store open?", "Store timings", "Business hours"],
+      "responses": ["Our store is open from 9 AM to 6 PM, Monday to Saturday."]
+    },
+    {
+      "tag": "order_status",
+      "patterns": ["Where is my order?", "Track my order", "Order status", "Has my order shipped?"],
+      "responses": ["You can track your order in your profile under 'My Orders'. Do you want me to direct you there?"]
+    },
+    {
+      "tag": "refund_policy",
+      "patterns": ["How can I get a refund?", "What is your return policy?", "Return item", "Refund process"],
+      "responses": ["You can request a return within 7 days of delivery. Refunds are processed within 3-5 business days after approval."]
+    },
+    {
+      "tag": "payment_methods",
+      "patterns": ["How can I pay?", "What payment methods do you accept?", "Credit card?", "UPI accepted?"],
+      "responses": ["We accept UPI, Credit/Debit Cards, and Net Banking."]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye", "See you later", "Catch you later"],
+      "responses": ["Goodbye! Have a great day ahead.", "Take care! Come back soon."]
+    }
+  ]
+}
